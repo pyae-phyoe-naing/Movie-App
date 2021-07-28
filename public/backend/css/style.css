@@ -3,3 +3,24 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    background-color:rgb(58, 135, 236) !important;
+    border-color: rgb(58, 135, 236) !important;
+}
+.btn-info{
+    background-color:rgb(46, 185, 240) !important;
+    border-color: rgb(46, 185, 240) !important;
+}
+.btn-success{
+    background-color:rgb(21, 192, 169) !important;
+    border-color: rrgb(21, 192, 169) !important;
+}
+.page-item.active .page-link {
+    background-color:rgb(58, 135, 236) !important;
+    border-color: rgb(58, 135, 236) !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin:20px 0 0 !important;
+
+}

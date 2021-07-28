@@ -28,15 +28,15 @@
 </head>
 
 <body>
-    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header " style="height: 100vh !important">
         @include('backend.layouts.header')
         <div class="app-main">
             @include('backend.layouts.sidebar')
             <div class="app-main__outer">
-                <div class="app-main__inner">
+                <div class="app-main__inner" >
                     @yield('content')
                 </div>
-                <div class="app-wrapper-footer">
+                <div class="app-wrapper-footer mt-3">
                     <div class="app-footer">
                         <div class="app-footer__inner">
                             <div class="app-footer-left">

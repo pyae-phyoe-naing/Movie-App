@@ -41,6 +41,14 @@
                     </a>
 
                 </li>
+
+                <li>
+                    <a class="@yield('movie-serie')" href="{{ route('admin.movie-serie') }}">
+                        <i class="metismenu-icon feather-tv"></i>
+                        Movie - Series
+                    </a>
+
+                </li>
                 <li>
                     <a class="@yield('category')" href="{{ route('admin.category') }}">
                         <i class="metismenu-icon pe-7s-albums"></i>
@@ -49,24 +57,10 @@
 
                 </li>
                 <li>
-                    <a class="@yield('movie-serie')" href="{{ route('admin.movie-serie') }}">
+                    <a class="@yield('genre')" href="{{ route('admin.genre.index') }}">
                         <i class="metismenu-icon pe-7s-film"></i>
-                        Movie - Series
+                        Genre
                     </a>
-
-                </li>
-                <li>
-                    {{-- <a class="@yield('user-index')" href="{{ route('admin.user.index') }}">
-                        <i class="metismenu-icon pe-7s-users"></i>
-                         Users
-                    </a> --}}
-
-                </li>
-                <li>
-                    {{-- <a class="@yield('wallet-active')" href="{{ route('admin.wallet.index') }}">
-                        <i class="metismenu-icon pe-7s-wallet"></i>
-                         User Wallet
-                    </a> --}}
 
                 </li>
             </ul>
